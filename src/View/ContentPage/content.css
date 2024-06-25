@@ -1,0 +1,85 @@
+/* content.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    position: relative;
+  }
+  
+  .header h1 {
+    font-size: 2em;
+  }
+  
+  .view-more {
+    position: absolute;
+    right: 10%;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .view-more:hover {
+    background-color: #333;
+  }
+  
+  .cardCss {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .cardCss .card {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 18rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .cardCss .card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .cardCss .card h5 {
+    font-size: 1.25em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .cardCss .card p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .cardCss .card button {
+    background-color: #d1c4e9;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .cardCss .card button:hover {
+    background-color: #b39ddb;
+  }
+  

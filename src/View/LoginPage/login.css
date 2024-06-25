@@ -1,0 +1,83 @@
+/* styles.css */
+
+/* Center the form on the page */
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;  
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"], /* css selectors */
+  input[type="password"]
+   {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #3366FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #254eda;
+  }
+  
+  .line-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ccc;
+  }
+  
+  .line-text {
+    margin: 0 10px;
+    color: #888;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  .sign-in-link {
+    color: red;
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  
+  
+  
